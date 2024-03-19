@@ -14,4 +14,10 @@ st.write(
 
 if "Python" in st.secrets["my_cool_secrets"]["things_i_like"]:
     st.write("Python encountered")
+if "Streamlit" in st.secrets["my_cool_secrets"]["things_i_like"]:
+    st.write("Streamlit found")
 
+if "Streamlit112" in st.secrets["my_cool_secrets"]["things_i_like"]:
+    st.write("Streamlit found")
+else:
+    st.write("unauthorised")
