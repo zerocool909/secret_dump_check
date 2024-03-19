@@ -11,3 +11,7 @@ st.write(
     "Has environment variables been set:",
     os.environ["db_username"] == st.secrets["db_username"],
 )
+
+if "Python" in st.secrets["my_cool_secrets"]["things_i_like"]:
+    st.write("Python encountered")
+
